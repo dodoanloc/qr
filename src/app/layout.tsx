@@ -9,8 +9,8 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "QR Generator ✨ GenZ Edition",
-  description: "Tạo mã QR cute xịn xò với giao diện GenZ hồng hồng bong bóng 🎀",
+  title: "Caption Gen ✨ GenZ Edition",
+  description: "Tạo caption xịn xò đăng mạng xã hội 🎀",
 };
 
 export default function RootLayout({
