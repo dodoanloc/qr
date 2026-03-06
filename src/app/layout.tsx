@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "QR Generator - Tạo mã QR miễn phí",
-  description: "Tạo mã QR code miễn phí với nhiều tùy chọn màu sắc, kích thước. Tải xuống định dạng PNG hoặc SVG.",
+  title: "QR Generator ✨ GenZ Edition",
+  description: "Tạo mã QR cute xịn xò với giao diện GenZ hồng hồng bong bóng 🎀",
 };
 
 export default function RootLayout({
