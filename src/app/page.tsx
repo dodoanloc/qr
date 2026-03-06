@@ -6,6 +6,7 @@ import { Copy, Check, Sparkles, RefreshCw } from "lucide-react";
 // Caption themes with icons
 const THEMES = [
   { id: "thinh", name: "Thả Thính", icon: "💘", color: "from-pink-500 to-rose-500" },
+  { id: "haihuoc", name: "Hài Hước", icon: "😂", color: "from-yellow-400 to-amber-500" },
   { id: "chill", name: "Chill Chill", icon: "🌸", color: "from-purple-500 to-indigo-500" },
   { id: "dongluc", name: "Động Lực", icon: "🔥", color: "from-orange-500 to-red-500" },
   { id: "buon", name: "Deep Buồn", icon: "🌧️", color: "from-blue-500 to-cyan-500" },
@@ -129,6 +130,24 @@ const CAPTIONS: Record<string, string[]> = {
     "Bạn đẹp nhất khi là chính mình 💄",
     "Love yourself first and everything else falls into line 💫",
   ],
+  haihuoc: [
+    "Tôi không lườ tôi chỉ đang tiết kiệm năng lượng 😴",
+    "Nếu bạn thấy tôi im lặng, đừng lo, tôi đang nghĩ cách trả thù 🤫",
+    "Tôi không béo, tôi chỉ dễ thương theo chiều ngang 🍔",
+    "Tiền không mua được hạnh phúc nhưng mua được trà sữa 🧋",
+    "Tôi không hay quên, tôi chỉ chọn nhớ những gì quan trọng 🧠",
+    "Nếu cuộc sống cho bạn chanh, hãy đòi thêm muối và tequila 🍋",
+    "Tôi không phải ngườilườ tôi chỉ đang ở chế độ tiết kiệm pin 🔋",
+    "Gym là nơi tôi đi để... chụp ảnh selfie 📸",
+    "Tôi không trễ hẹn, tôi chỉ đến muộn một cách sang trọng ⏰",
+    "Nếu bạn không thể làm tốt, hãy làm cho vui 😂",
+    "Tôi không uống cà phê, tôi uống sự tỉnh táo ☕",
+    "Cuộc sống quá ngắn để mặc đồ không có thun ăn 🍕",
+    "Tôi không hay cãi, tôi chỉ giải thích tại sao tôi đúng 🎤",
+    "Nếu bạn thấy tôi đang ăn, đừng nói chuyện với tôi 🍽️",
+    "Tôi không thiếu ngủ, tôi chỉ sống ở múi giờkhác 🌙",
+    "Tôi không lườ tôi chỉ đang chờ động lực đến... từ năm sau 📅",
+  ],
 };
 
 export default function Home() {
@@ -187,7 +206,7 @@ export default function Home() {
             <span>Chọn chủ đề:</span>
           </h2>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {THEMES.map((t) => (
               <button
                 key={t.id}
